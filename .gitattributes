@@ -1,2 +1,44 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# A<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> My Travel Blog </title>
+    <meta charset="utf-8">
+    <hr>
+</head>
+<hr>
+<body>
+   <!-- Hello, and welcome to my travel page! Thank you for joining-->
+    <header>
+        <h1> Jades Website</h1>
+        <h2>Welcome to my travel blog. More about me </h2>
+        <hr>
+        <p>My name is Jade, I love to explore new cultures</p>
+        <p>I love to travel, and take alot of photos. This is where I would like to display them</p>
+    </header>
+    <section>
+        <h1> Favourite Cities</h1>
+        <p> this is a section.</p>
+        <ul>
+            <li>istanbul</li>
+            <li>madrid</li>
+            <li>athens</li>
+        </ul>
+    </section>
+<section>
+    <h2> Favourite Countries</h2>
+    <ol>
+        <li>Turkey</li>
+        <li>Spain</li>
+        <li>Greece</li>
+    </ol>
+    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga eum id beatae velit consequuntur dolor facere quasi hic est dolore, alias cupiditate sint voluptatibus quidem quas vitae unde ipsum. Saepe?</p>
+</section>
+<body>
+    <img src="travel photo.jpg">
+
+</body>
+
+    <footer>
+        <p>Website made by Jade. </p>
+    </footer>
+
