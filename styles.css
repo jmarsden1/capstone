@@ -1,17 +1,25 @@
-body {
-    background-color:#F5F5DC; 
-    margin-left:30px;
-    margin-right:30px;
-    font-family: "Red Hat Mono", monospace;
-    color:darkslategrey
+* {
+    font-family: "Red Hat Mono", monospace; helvetica; arial;
 }
 
+body {
+    border: 5px dotted white;
+    background-color:#F5F5DC; 
+    margin-right:30px;
+    margin-left:30px;
+    margin-top: 30px;
+    margin-bottom:30px;
+    padding:20px;
+
+    color:darkslategrey
+}
 header {
     background-color:bisque;
 }
 
 header h1 {
     text-align:center;
+    /* border-bottom: 1px solid lightgray; */
 }
 
 header h2 {
@@ -23,21 +31,24 @@ footer {text-align:center;
         text-decoration:underline;
 }
 
-
-
-
-
+ h2 {text-align:left;
+    text-decoration:underline;
+    color:#81b29a
+ }
 
 h3 {text-decoration:underline;
-}
-
-
-
-h3 {text-align: center; font-style:italic; color:#81b29a
+    text-align: center; font-style:italic; color:#81b29a
 }
 
 p {line-height:2;
+    font-size:100%;
+    text-align:center;
 }
 
-span {color:#81b29a
+.div-1 {
+    background-color:#81b29a;
+    text-align:center;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 10px;
 }
