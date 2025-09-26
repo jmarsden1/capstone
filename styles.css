@@ -10,9 +10,9 @@ body {
     margin-top: 30px;
     margin-bottom:30px;
     padding:20px;
-
     color:darkslategrey
 }
+
 header {
     background-color:bisque;
 }
@@ -51,8 +51,8 @@ h4 {
     color:#81b29a
 }
     
-
-p {line-height:2;
+p {
+    line-height:2;
     font-size:100%;
     text-align:center;
 }
@@ -90,9 +90,8 @@ p {line-height:2;
     max-width:1400px;
     height:500px;
     text-align:center;
-    
 }
-
+    
 .container2 p{
     color:#00b4d8;
     font-style: italic;
@@ -107,3 +106,32 @@ img{
     margin-top:20px;
     margin-bottom:20px;
 }
+
+#footer {
+    color:aqua;
+}
+
+#box-2 {
+    height: 200px;
+    width:300px;
+    border:1px solid #81b29a;
+    margin: 60px;
+    background-color: antiquewhite;
+}
+
+#box-3 {
+    height: 200px;
+    width:300px;
+    border:1px solid #81b29a;
+    margin: 60px;
+    background-color: antiquewhite;
+
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
